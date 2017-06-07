@@ -16,9 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tab label for version information [CHAR LIMIT=20] -->
-  <string name="appVersion">Info Versi</string>
+  <string name="appVersion">Info versi</string>
   <string name="currentVersion">Versi Saat Ini:</string>
   <string name="newVersion">Versi Baru:</string>
   <string name="not_available">tidak tersedia</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
+  <string name="no_perms">Apl ini tidak membutuhkan izin.</string>
 </resources>
