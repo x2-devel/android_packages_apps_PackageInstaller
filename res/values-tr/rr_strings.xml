@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tab label for version information [CHAR LIMIT=20] -->
   <string name="appVersion">Sürüm Bilgisi</string>
-  <string name="currentVersion">Geçerli Sürüm:</string>
+  <string name="currentVersion">Mevcut Sürüm:</string>
   <string name="newVersion">Yeni Sürüm:</string>
   <string name="not_available">mevcut değil</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
