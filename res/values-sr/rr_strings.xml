@@ -16,5 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tab label for version information [CHAR LIMIT=20] -->
+  <string name="appVersion">Информације о верзији</string>
+  <string name="currentVersion">Тренутна верзија:</string>
+  <string name="newVersion">Нова верзија:</string>
+  <string name="not_available">недоступно</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
+  <string name="no_perms">Ова апликација не захтева никакве дозволе.</string>
 </resources>
