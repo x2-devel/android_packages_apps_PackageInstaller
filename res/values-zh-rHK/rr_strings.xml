@@ -18,8 +18,8 @@
   <!-- Tab label for version information [CHAR LIMIT=20] -->
   <string name="appVersion">版本資訊</string>
   <string name="currentVersion">目前版本：</string>
-  <string name="newVersion">新版本：</string>
-  <string name="not_available">無可用</string>
+  <string name="newVersion">新的版本：</string>
+  <string name="not_available">沒有可供選擇</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
   <string name="no_perms">這個應用程式不需要任何權限。</string>
 </resources>
