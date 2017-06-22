@@ -16,5 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tab label for version information [CHAR LIMIT=20] -->
+  <string name="appVersion">버전 정보</string>
+  <string name="currentVersion">현재 버전:</string>
+  <string name="newVersion">새 버전</string>
+  <string name="not_available">사용할 수 없음</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
+  <string name="no_perms">이 앱은 권한이 필요 없습니다.</string>
 </resources>
