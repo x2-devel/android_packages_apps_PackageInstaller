@@ -16,5 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Tab label for version information [CHAR LIMIT=20] -->
+  <string name="appVersion">ข้อมูลของรุ่น</string>
+  <string name="currentVersion">รุ่นปัจจุบัน:</string>
+  <string name="newVersion">รุ่นใหม่:</string>
+  <string name="not_available">ไม่พร้อมใช้งาน</string>
   <!-- Body text for new tab when there are no permissions [CHAR LIMIT=NONE] -->
+  <string name="no_perms">นี้ต้องใช้สิทธิ์ไม่</string>
 </resources>
