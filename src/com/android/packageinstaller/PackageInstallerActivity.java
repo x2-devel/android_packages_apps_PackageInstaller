@@ -140,6 +140,8 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
         boolean permVisible = false;
         mScrollView = null;
         mOkCanInstall = false;
+        Log.i(TAG, "startInstallConfirm: mOkCanInstall = false" );
+
         int msg = 0;
         AppSecurityPermissions perms = new AppSecurityPermissions(this, mPkgInfo);
         final int N = perms.getPermissionCount(AppSecurityPermissions.WHICH_ALL);
@@ -229,12 +231,15 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
         }
 
         mInstallConfirm.setVisibility(View.VISIBLE);
+        Log.i(TAG, "startInstallConfirm: mOk.setEnabled(true)" );
         mOk.setEnabled(true);
+        mOkCanInstall = true;
+        Log.i(TAG, "startInstallConfirm: mOkCanInstall = true" );
+
         if (mScrollView == null) {
             // There is nothing to scroll view, so the ok button is immediately
             // set to install.
             mOk.setText(R.string.install);
-            mOkCanInstall = true;
         } else {
             mOk.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -247,6 +252,7 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
                 public void run() {
                     mOk.setText(R.string.install);
                     mOkCanInstall = true;
+                    Log.i(TAG, "startInstallConfirm: mOkCanInstall = true" );
                     mOk.setOnClickListener(PackageInstallerActivity.this);
                 }
             });
@@ -258,6 +264,7 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
         super.onResume();
 
         if (mOk != null) {
+            Log.i(TAG, "onResume: mOk.setEnabled(" + mOkCanInstall +")" );
             mOk.setEnabled(mOkCanInstall);
         }
     }
@@ -268,6 +275,7 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
 
         if (mOk != null) {
             // Don't allow the install button to be clicked as there might be overlays
+            Log.i(TAG, "onPause: mOk.setEnabled(false)" );
             mOk.setEnabled(false);
         }
     }
